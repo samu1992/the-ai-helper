@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// UI settings
+@import './base/setting';
+
+// components
+
+@import './components/app';
+@import './components/card';
+@import './components/filter';
+@import './components/footer';
+@import './components/form';
+@import './components/inicio';
+@import './components/login';
+@import './components/navbar';
+@import './components/search';
