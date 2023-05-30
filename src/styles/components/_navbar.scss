@@ -1,0 +1,25 @@
+.container-nav{
+    @include center;
+    position: absolute;
+    flex-direction: row;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+.nav-links{
+    @include center;
+    padding: 0;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    font-size: 18px;
+    color: $secondary-color;
+
+    li{
+        cursor: pointer;
+    }
+
+    .text-logo{
+        font-size: 36px;
+    }
+}

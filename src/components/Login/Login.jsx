@@ -2,7 +2,10 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <div className='container-login'>
+      <button className='sign'>Login</button>
+      <button >Sign Up</button>
+    </div>
   )
 }
 

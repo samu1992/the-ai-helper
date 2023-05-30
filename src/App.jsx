@@ -1,11 +1,12 @@
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
+import Presentation from './components/Presentation/Presentation';
 
 const App = () => {
   return (
     <main className='App'>
-      <h1>hola</h1>
       <NavBar />
+      <Presentation/>
     </main>
   )
 }

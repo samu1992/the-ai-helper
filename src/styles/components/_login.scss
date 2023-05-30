@@ -1,0 +1,21 @@
+.container-login{
+    @include center;
+    gap: 10px;
+    position: absolute;
+    right: 25px;
+    float: right;
+
+    button{
+        width: 107px;
+        height: 39px;
+        background-color: transparent;
+        border: 2px solid $secondary-color;
+        border-radius: 10px;
+        color: $secondary-color;
+        cursor: pointer;
+    }
+
+    .sign{
+        border: none;
+    }
+}
