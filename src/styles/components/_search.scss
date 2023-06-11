@@ -1,0 +1,36 @@
+.container-input{
+    @include center;
+    flex-direction: column;
+    margin-top: 25px;
+    min-width: 100%;
+    gap: 20px;
+
+    input{
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        padding: 0px 15px;
+        width: 90% !important;
+
+        &:focus{
+            outline: none;
+            box-shadow: 0 0 5px #22065F;
+        }
+    }
+
+    .categories{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        button{
+            padding: 5px 28px;
+            height: 40px;
+            border-radius: 10px;
+            border: 2px solid $color-optional-2;
+            cursor: pointer;
+        }
+    }
+    
+}

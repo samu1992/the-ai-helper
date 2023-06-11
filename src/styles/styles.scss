@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+/* html,body{
+    min-width: 100%;
+    min-height: 100vh;
+    border: 1px solid red;
+} */
 // UI settings
 @import './base/setting';
 
@@ -16,4 +21,5 @@
 @import './components/login';
 @import './components/navbar';
 @import './components/search';
-@import './components/presentation'
+@import './components/presentation';
+@import './components/products';

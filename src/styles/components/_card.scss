@@ -1,0 +1,138 @@
+.card {
+    @include centrar-between;
+    flex-direction: column;
+    padding: 0px;
+    gap: 40px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(255,255,255,0.2);
+/*     background-color: $color-navbar-2; */
+    border-radius: 20px;
+    cursor: pointer;
+    width: 300px;
+    min-height: 400px;
+    overflow: hidden;
+    background-color: $secondary-color;
+    transition: all 0.5s;
+    @include shadow;
+
+
+    
+
+    strong {
+        font-size: 24px;
+    }
+
+    img {
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+.card-detalle {
+    @include center;
+    flex-direction: column;
+
+    section{
+        padding: 8px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        gap: 8px;
+
+        p {
+            font-size: 13px;
+            margin: 0;
+            color: $color-optional-2;
+            text-align: start;
+            max-width: 350px;
+        }
+    }
+}
+
+.card-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 15px;
+
+    p{
+        color: #CCCCCC;
+        font-size: 14px
+    }
+
+    button {
+        @include center;
+        padding: 7px 10px;
+        border: none;
+        background-color: transparent;
+
+        a,i{
+            color: $color-optional-2;
+            text-decoration: none;
+
+            &:hover{
+                color: $tertiary-color;
+            }
+        }
+    }
+}
+
+
+/* @media only screen and (max-width: 1200px) {
+    .proyecto--Detalle {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container_proyectos {
+        padding: 10px;
+    }
+
+    .proyecto--Detalle {
+        width: 100%;
+
+        p,
+        strong {
+            letter-spacing: normal;
+            font-size: 18px;
+        }
+    }
+
+    .proyecto img {
+        width: 350px;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .container_proyectos {
+        gap: 30px;
+    }
+
+    .proyecto--Detalle {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 5px;
+
+        img {
+            width: 100%;
+        }
+
+        p,
+        strong {
+            letter-spacing: 3px;
+            font-size: 14px;
+        }
+    }
+}
+@media only screen and (max-width: 500px){
+    .proyecto{
+        width: 300px;
+    }
+} */
