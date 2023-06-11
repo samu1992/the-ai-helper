@@ -5,4 +5,47 @@
     min-width: 100%;
     min-height: 100vh;
     background-color: $primary-color;
+    font-family: 'Figtree', sans-serif;
+}
+
+.container-informed{
+    @include center;
+    flex-direction: column;
+    gap: 20px;
+
+    section{
+        @include center;
+        gap: 10px;
+
+        input{
+            height: 39px;
+            border-radius: 10px;
+            border: none;
+            padding: 0px 15px;
+            width: 420px;
+    
+            &:focus{
+                outline: none;
+                box-shadow: 0 0 5px #22065F;
+            }
+        }
+        button{
+            padding: 5px 28px;
+            height: 40px;
+            border-radius: 10px;
+            border: 2px solid $color-optional-2;
+            cursor: pointer;
+        }
+    }
+    .img{
+        @include center;
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+
+        img{
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+    }
 }
