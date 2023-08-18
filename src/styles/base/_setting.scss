@@ -56,3 +56,9 @@ background: linear-gradient(90deg, rgba(93,95,239,1) 0%, rgba(245,254,125,0.2) 1
     background: rgb(245,254,125);
 background: linear-gradient(90deg, rgba(245,254,125,0.2) 0%, rgba(93,95,239,1) 100%);
 }
+
+@mixin links {
+    background-size: 100% 2px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}

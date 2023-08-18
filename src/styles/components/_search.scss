@@ -28,8 +28,12 @@
             padding: 5px 28px;
             height: 40px;
             border-radius: 10px;
-            border: 2px solid $color-optional-2;
+            border: 1px solid $color-optional-2;
             cursor: pointer;
+
+            &:hover{
+                box-shadow: 0 0 5px rgba(34, 6, 95, 0.5);
+            }
         }
     }
     
